@@ -1,0 +1,120 @@
+# CRM Pipefy para Decoração de Festas 🎉
+
+Este projeto é um fluxo completo criado no Pipefy para facilitar a gestão 
+de orçamentos e processos de empresas de decoração de festas.
+
+## ✨ Funcionalidades
+
+- Formulário de entrada de dados personalizável
+- Criação automática de cards com base no formulário
+- Geração de PDF com dados do cliente e orçamento
+- Envio automático de e-mail com o orçamento
+- Automação para preenchimento de campos com base em templates
+
+## 🧩 Tecnologias utilizadas
+
+- [Pipefy](https://www.pipefy.com/)
+- Templates de e-mail e PDF
+- Automações internas do Pipefy
+
+## 📁 Estrutura do projeto
+
+├── assets/ # Prints do fluxo, e-mails, PDF e automações ├── 
+videos/ # Gravações mostrando o funcionamento do projeto
+
+perl
+Copiar
+Editar
+
+## 📸 Demonstrações
+
+### 📌 Pipeline no Pipefy
+
+![fluxo da pipeline](assets/fluxo%20da%20pipeline.png)
+
+### 📩 E-mail enviado automaticamente
+
+![email recebido gmail](assets/email%20recebido%20gmail.png)
+
+### 📄 PDF gerado automaticamente
+
+![pdf com parametros](assets/pdf%20com%20parametros.png)
+
+## 🎥 Vídeos
+
+- [Gerar PDF preenchido](videos/gerar%20pdf%20preenchido.mov)
+- [Envio automático de 
+e-mail](videos/enviando%20email%20via%20pipefy.mov)
+- [Formulário inicial + criação de 
+card](videos/preenchimento%20formulário%20e%20criacao%20do%20card.mov)
+
+## 📌 Observações
+
+Este fluxo é totalmente personalizável e pode ser replicado para outros 
+nichos de negócio que trabalham com orçamentos e propostas.
+
+---
+
+Desenvolvido por [Uriel Silva de 
+Moura](https://github.com/UrielSilvaDeMoura)# CRM Pipefy para Decoração 
+de Festas 🎉
+
+Este projeto é um fluxo completo criado no Pipefy para facilitar a gestão 
+de orçamentos e processos de empresas de decoração de festas.
+
+## ✨ Funcionalidades
+
+- Formulário de entrada de dados personalizável
+- Criação automática de cards com base no formulário
+- Geração de PDF com dados do cliente e orçamento
+- Envio automático de e-mail com o orçamento
+- Automação para preenchimento de campos com base em templates
+
+## 🧩 Tecnologias utilizadas
+
+- [Pipefy](https://www.pipefy.com/)
+- Templates de e-mail e PDF
+- Automações internas do Pipefy
+
+## 📁 Estrutura do projeto
+
+├── assets/ # Prints do fluxo, e-mails, PDF e automações ├── 
+videos/ # Gravações mostrando o funcionamento do projeto
+
+perl
+Copiar
+Editar
+
+## 📸 Demonstrações
+
+### 📌 Pipeline no Pipefy
+
+![fluxo da pipeline](assets/fluxo%20da%20pipeline.png)
+
+### 📩 E-mail enviado automaticamente
+
+![email recebido gmail](assets/email%20recebido%20gmail.png)
+
+### 📄 PDF gerado automaticamente
+
+![pdf com parametros](assets/pdf%20com%20parametros.png)
+
+## 🎥 Vídeos
+
+- [Gerar PDF preenchido](videos/gerar%20pdf%20preenchido.mov)
+- [Envio automático de 
+e-mail](videos/enviando%20email%20via%20pipefy.mov)
+- [Formulário inicial + criação de 
+card](videos/preenchimento%20formulário%20e%20criacao%20do%20card.mov)
+
+## 📌 Observações
+
+Este fluxo é totalmente personalizável e pode ser replicado para outros 
+nichos de negócio que trabalham com orçamentos e propostas.
+
+---
+
+Desenvolvido por [Uriel Silva de 
+Moura](https://github.com/UrielSilvaDeMoura)# 
+crm-pipefy-festas
+CRM no Pipefy para Gestão de Decoração de Festas - Automação de orçamento, geração de PDF e envio de e-mails
