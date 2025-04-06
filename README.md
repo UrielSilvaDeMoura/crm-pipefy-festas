@@ -27,8 +27,10 @@ Criação de formulário público personalizado, com campos essenciais para cole
 - Local e observações
 
 🎬 *Preenchimento do Formulário*
+![Formulário Inicial](videos/preenchimento_formulário_e_criacao_do_card.gif)
 
-![Formulário Inicial](assets/formulario-inicial.png)
+📸 *Dados vinculados ao card:*
+![Etapas do Pipe](assets/dados_dentro_do_card.png)
 
 ---
 
@@ -36,47 +38,62 @@ Criação de formulário público personalizado, com campos essenciais para cole
 
 O Pipe foi estruturado com etapas que representam o ciclo de atendimento:
 
-1. **Entrada de Leads**
-2. **Contato Realizado**
-3. **Orçamento em Andamento**
-4. **PDF Gerado**
-5. **Orçamento Enviado**
-6. **Evento Confirmado**
-7. **Evento Realizado**
+1. **Novo evento**
+2. **Montagem do orçamento**
+3. **Orçamento em enviado**
+4. **Evento agendado**
+5. **Pré-evento**
+6. **Evento realizado**
+7. **Recibo enviado**
+7. **Encerrado**
+7. **Não realizado**
 
 📸 *Print das Etapas do Pipe:*
-![Etapas do Pipe](assets/etapas-pipe.png)
+![Etapas do Pipe](assets/fluxo_da_pipeline.png)
 
 ---
 
-### 3. 📄 Geração de PDF com Orçamento
+### 3. ⚙️ Automação de processo
+Automação para pré-preenchimento de campo com termos e condições básicas do contrato:
+
+📸 *Print da automação criada:*
+![Etapas do Pipe](assets/automacao_preenchimento_automatico_dos_termos.png)
+
+📸 *Print do campo preenchido pela automação:*
+![Etapas do Pipe](assets/dados_preenchidos_automaticamente_automacao.png)
+
+---
+
+### 4. 📄 Geração de PDF com Orçamento
 
 Geração automática de PDF com os dados do card, incluindo valores, itens da decoração e condições.
 
-📸 *Print do PDF Gerado:*
-![PDF Orçamento](assets/pdf-gerado.png)
+📸 *Print do template do PDF:*
+![Template PDF Orçamento](assets/pdf_com_parametros.png)
+
+🎬 *PDF Gerado:*
+![PDF Orçamento](videos/gerar_pdf_preenchido.gif)
 
 ---
 
-### 4. ✉️ Envio de E-mail com Template
+### 5. ✉️ Envio de E-mail com Template
 
-Template de e-mail personalizado vinculado à etapa de envio de orçamento. Inclui:
+Template de e-mail personalizado para envio de orçamento. Inclui:
 
-- Saudação personalizada
-- Link para o PDF do orçamento
-- Informações de contato
+- Configurações para envio via e-mail nativo Pipefy
+- Texto personalizado
 
-📸 *Print do E-mail:*
-![E-mail Orçamento](assets/email-enviado.png)
+📸 *Configurações do template do E-mail:*
+![E-mail Orçamento](assets/template_email1.png)
+![E-mail Orçamento](assets/template_email2.png)
+
+🎬 *Fluxo de envio e recebimento do e-mail:*
+![Envio de e-mail](videos/enviando_email_via_pipefy.gif)
+
+📸 *E-mail recebido no Gmail:*
+![E-mail recebido](assets/email_recebido_gmail.png)
 
 ---
-
-### 🎬 Demonstração em Vídeo
-
-Veja o funcionamento completo do CRM em ação:
-
-📹 [Clique aqui para assistir à demonstração do fluxo no Pipefy](videos/demo-pipefy-crm.mp4)
-
 
 ## ▶️ Como Usar
 
@@ -86,8 +103,10 @@ Veja o funcionamento completo do CRM em ação:
 
 💡 Considerações Finais
 
-Este fluxo está pronto para ser utilizado por empresas que desejam profissionalizar sua gestão de eventos. Todos os recursos foram pensados para facilitar a comunicação com o cliente e otimizar o tempo da equipe.
+| Este fluxo está pronto para ser utilizado por empresas que desejam profissionalizar sua gestão de eventos. Todos os recursos foram pensados para facilitar a comunicação com o cliente e otimizar o tempo da equipe.
 
-📬 Em caso de dúvidas, sugestões ou melhorias, fique à vontade para abrir uma issue ou me contatar via LinkedIn.
+| Desenvolvido com baixa complexidade, o objetivo é proporcionar uma experiência inicial simples e eficiente para o usuário. Como o Pipefy é uma ferramenta totalmente customizável, este fluxo pode ser facilmente escalado e adaptado conforme a demanda e o crescimento do cliente.
+
+📬 Em caso de dúvidas, sugestões ou melhorias, fique à vontade para abrir uma issue ou me contatar via [Linkedin](https://www.linkedin.com/in/urielsilvademoura/).
 
 📌 Projeto criado por Uriel Silva de Moura.
