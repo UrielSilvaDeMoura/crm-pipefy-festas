@@ -110,3 +110,5 @@ Template de e-mail personalizado para envio de orçamento. Inclui:
 📬 Em caso de dúvidas, sugestões ou melhorias, fique à vontade para abrir uma issue ou me contatar via [Linkedin](https://www.linkedin.com/in/urielsilvademoura/).
 
 📌 Projeto criado por Uriel Silva de Moura.
+
+![pipefy](assets/site_pipefy.png)
