@@ -1,45 +1,93 @@
-# 🎉 CRM Pipefy para Gestão de Decoração de Festas
+# 🎉 CRM no Pipefy para Gestão de Decoração de Festas
 
-Este projeto é um fluxo completo no **Pipefy** criado para facilitar a gestão de pedidos de decoração de festas. A solução permite centralizar informações, automatizar tarefas e agilizar o atendimento ao cliente.
-
-## ✨ Funcionalidades
-
-- 📋 Formulário inicial para entrada de dados dos clientes
-- ✅ Pipeline com etapas personalizadas para controle do processo
-- 📄 Geração de PDF com os dados do card automaticamente
-- 📧 Envio de e-mails com orçamentos personalizados
-- ⚙️ Automações configuradas no próprio Pipefy
-
-## 📁 Estrutura do Repositório
-
-crm-pipefy-festas/ ├── assets/ # Prints e imagens da interface e automações ├── videos/ # Demonstrações em vídeo das funcionalidades └── README.md # Este arquivo
-
-perl
-Copiar
-Editar
-
-## 🖼️ Prints do Projeto
-
-| Fluxo da Pipeline | Formulário Inicial | E-mail Enviado |
-|-------------------|---------------------|----------------|
-| ![Fluxo](./assets/fluxo%20da%20pipeline.png) | ![Formulário](./assets/site%20pipefy.png) | ![Email](./assets/email%20recebido%20gmail.png) |
-
-## 🎥 Vídeos Demonstrativos
-
-- [✅ Envio de e-mail via Pipefy](./videos/enviando%20email%20via%20pipefy.mov)
-- [📝 Geração de PDF preenchido automaticamente](./videos/gerar%20pdf%20preenchido.mov)
-- [📋 Preenchimento do formulário e criação do card](./videos/preenchimento%20formulário%20e%20criacao%20do%20card.mov)
-
-## 🛠️ Tecnologias Utilizadas
-
-- [Pipefy](https://www.pipefy.com/)
-- Geração de PDF via automações do Pipefy
-- Templates de e-mail dinâmicos
-- Anexos e variáveis customizadas
-
-## 👨‍💻 Autor
-
-Desenvolvido por [Uriel Silva de Moura](https://github.com/UrielSilvaDeMoura)  
-Atuação: Especialista em automações e construção de CRMs personalizados com ferramentas no-code como Bitrix24, Pipefy, Bubble e N8N.
+Este projeto foi desenvolvido com o objetivo de estruturar um fluxo completo de CRM no Pipefy, voltado para empresas de **decoração de festas**, centralizando o atendimento ao cliente, orçamentos, envio de propostas e organização interna.
 
 ---
+
+## 🚀 Tecnologias Utilizadas
+
+- ✅ [Pipefy](https://www.pipefy.com/) — Plataforma de gestão de processos
+- ✅ PDF Generator Pipefy — Para geração automática de documentos
+- ✅ E-mails automáticos do Pipefy
+- ✅ Automação de preenchimento de campos
+---
+
+## 🧩 Funcionalidades do CRM
+
+### 1. 📋 Formulário Inicial
+Criação de formulário público personalizado, com campos essenciais para coleta de dados:
+
+- Nome do cliente
+- Telefone
+- E-mail
+- CPF
+- Tipo da festa
+- Tema
+- Data da festa
+- Local e observações
+
+🎬 *Preenchimento do Formulário*
+
+![Formulário Inicial](assets/formulario-inicial.png)
+
+---
+
+### 2. 🧠 Etapas do Pipe
+
+O Pipe foi estruturado com etapas que representam o ciclo de atendimento:
+
+1. **Entrada de Leads**
+2. **Contato Realizado**
+3. **Orçamento em Andamento**
+4. **PDF Gerado**
+5. **Orçamento Enviado**
+6. **Evento Confirmado**
+7. **Evento Realizado**
+
+📸 *Print das Etapas do Pipe:*
+![Etapas do Pipe](assets/etapas-pipe.png)
+
+---
+
+### 3. 📄 Geração de PDF com Orçamento
+
+Geração automática de PDF com os dados do card, incluindo valores, itens da decoração e condições.
+
+📸 *Print do PDF Gerado:*
+![PDF Orçamento](assets/pdf-gerado.png)
+
+---
+
+### 4. ✉️ Envio de E-mail com Template
+
+Template de e-mail personalizado vinculado à etapa de envio de orçamento. Inclui:
+
+- Saudação personalizada
+- Link para o PDF do orçamento
+- Informações de contato
+
+📸 *Print do E-mail:*
+![E-mail Orçamento](assets/email-enviado.png)
+
+---
+
+### 🎬 Demonstração em Vídeo
+
+Veja o funcionamento completo do CRM em ação:
+
+📹 [Clique aqui para assistir à demonstração do fluxo no Pipefy](videos/demo-pipefy-crm.mp4)
+
+
+## ▶️ Como Usar
+
+1. Acesse o Pipefy e replique as etapas e automações descritas.
+
+2. Faça upload dos templates de PDF e e-mail usando os prints como referência.
+
+💡 Considerações Finais
+
+Este fluxo está pronto para ser utilizado por empresas que desejam profissionalizar sua gestão de eventos. Todos os recursos foram pensados para facilitar a comunicação com o cliente e otimizar o tempo da equipe.
+
+📬 Em caso de dúvidas, sugestões ou melhorias, fique à vontade para abrir uma issue ou me contatar via LinkedIn.
+
+📌 Projeto criado por Uriel Silva de Moura.
